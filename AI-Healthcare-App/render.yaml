@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ai-healthcare-app
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    runtime: python
+    plan: free
+
